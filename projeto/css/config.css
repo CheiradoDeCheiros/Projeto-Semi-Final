@@ -1,0 +1,140 @@
+body {
+	background: #0f5bb3;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+	background: url("https://i.pinimg.com/originals/1c/39/bc/1c39bca8538332f7e206732720148102.jpg");
+	padding: 50px;
+	margin-bottom: 100px;
+}
+footer {
+	background: url(../imagens/imagem-footer.png);
+	padding: 50px;
+	margin-top: 100px;
+}
+footer img {
+	width: 75px;
+	height: 35px;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+nav h1, nav a {
+	margin: 0;
+	font-style: italic;
+}
+h2 {
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+h5 {
+	font-size: 25px;
+	color: black;
+}
+p {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	line-height: 1.1em;
+}
+ul {
+	width: 450px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+nav a {
+	font-size: 50px;
+	font-weight: bold;
+	color: silver;
+	text-decoration: none;
+	transition: 0.5s color;
+	border-bottom: 5px solid #ffbf00;
+}
+nav a:hover {
+	color: white;
+}
+.caixaSobre{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.caixaPrincipal, .caixa {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.caixaFooter {
+	width: 325px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.caixaFooter a {
+	text-decoration: none;
+}
+.imgAlura {
+		padding: 5px;
+		border-radius: 15px;
+		background: white;
+	}
+@media screen and (max-width: 768px) {
+	header {
+		padding: 50px 0;
+	}
+	footer {
+		padding: 25px 0;
+	}
+	p {
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	li a {
+		font-size: 40px;
+	}
+	ul {
+		width: 100%;
+		flex-direction: column;
+		height: 100px;
+	}
+	li {
+		text-align: center;
+	}
+	.caixaPrincipal, .caixa {
+		width: 100%
+	}
+	.caixaFooter {
+		width: 100%;
+		flex-direction: column;
+		height: 100px;
+	}
+	main .caixaSobre {
+		width: 100%;
+		flex-direction: row;
+		height: 700px;
+	}
+	.caixaSobre div {
+		width: 100%;
+	}
+	.imagens img {
+		width: 190px;
+		height: 250px;
+	}
+	.imagens h3 {
+		font-size: 15px;
+	}
+	.imagens .sombra {
+		width: 190px;
+		height: 270px;
+	}
+}
